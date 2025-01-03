@@ -451,14 +451,14 @@ button {
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
-  .column {
+  .bio_column {
     width: 50%;
   }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
+  .bio_column {
     width: 100%;
   }
 }
@@ -488,6 +488,10 @@ button_bio {
   cursor: pointer;
   width: 100%;
   font-size: 18px;
+}
+
+h1_bio {
+    padding: 10px 0 10px 0;
 }
 
 a_bio {
