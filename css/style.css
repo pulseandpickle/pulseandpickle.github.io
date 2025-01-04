@@ -220,7 +220,7 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-color: #252525;
+    background-color: #fff4e8;
     height: auto;
     background-size: 100%;
 }
@@ -240,12 +240,14 @@ button {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
-    color: #f76d37;
+    color: #4c7031;
+    font-weight: bold;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #f76d37;
+    color: #4c7031;
+    font-weight: bold;
 }
 
 .navbar {
@@ -256,115 +258,12 @@ button {
     padding-right: .5rem;
     padding-left: .5rem;
     font-size: 18px;
-    color: #fff;
+    color: #4c7031;
 }
 
 .logo {}
 
 /* header section end */
-
-/* banner section start */
-
-.banner_section {
-    width: 100%;
-    float: left;
-    background-image: url(../images/banner-bg.jpeg);
-    height: auto;
-    background-size: 100%;
-    padding: 10px 0px 25px 0px;
-    background-repeat: no-repeat;
-}
-
-.banner_taital {
-    width: 100%;
-    float: left;
-    padding: 100px 0px;
-}
-
-.outstanding_text {
-    width: 100%;
-    float: left;
-    font-size: 60px;
-    color: #252525;
-    padding-bottom: 0px;
-}
-
-.coffee_text {
-    width: 100%;
-    float: left;
-    font-size: 70px;
-    color: #fdfcfa;
-    font-weight: bold;
-    padding-bottom: 0px;
-}
-
-.there_text {
-    width: 50%;
-    float: left;
-    font-size: 16px;
-    color: #fff;
-    margin: 0px;
-    padding-bottom: 30px;
-}
-
-.learnmore_bt {
-    width: 170px;
-}
-
-.learnmore_bt a {
-    width: 100%;
-    float: left;
-    padding-right: 0;
-    background-color: #252525;
-    color: #fff;
-    text-align: center;
-    margin-right: 12px;
-    height: 53px;
-    padding: 15px 40px;
-    font-size: 14px;
-    text-transform: uppercase;
-}
-
-.learnmore_bt a:hover {
-    background-color: #f76d37;
-    color: #fff;
-}
-
-#main_slider a.carousel-control-next {
-    left: 0px;
-    right: -60px;
-    top: 440px;
-}
-
-#main_slider a.carousel-control-prev {
-    left: -60px;
-    right: 0px;
-    top: 440px;
-}
-
-#main_slider .carousel-control-next,
-#main_slider .carousel-control-prev {
-    width: 45px;
-    height: 45px;
-    background: #fff;
-    opacity: 1;
-    font-size: 30px;
-    color: #333333;
-    margin: 0 auto;
-    z-index: 1;
-    margin: 0 auto;
-    text-align: center;
-}
-
-#main_slider .carousel-control-next:focus,
-#main_slider .carousel-control-next:hover,
-#main_slider .carousel-control-prev:focus,
-#main_slider .carousel-control-prev:hover {
-    color: #ffffff;
-    background-color: #f76d37;
-}
-
-/* banner section end */
 
 /* about section start */
 
@@ -382,8 +281,8 @@ button {
 .about_taital {
     width: 100%;
     float: left;
-    font-size: 32px;
-    color: #f76d37;
+    font-size: 24px;
+    color: #4c7031;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -397,26 +296,22 @@ button {
     padding-top: 10px;
 }
 
-.about_text {
-    width: 100%;
-    float: left;
-    font-size: 16px;
-    color: #4c4c4b;
-    margin: 0px;
-    padding-top: 10px;
-}
-
 .read_bt {
-    width: 175px;
+    width: 275px;
     float: left;
-    padding-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .read_bt a {
     width: 100%;
     float: left;
     font-size: 18px;
-    background-color: #252525;
+    background-color: #4c7031;
     color: #ffffff;
     text-align: center;
     padding: 8px;
@@ -424,7 +319,7 @@ button {
 
 .read_bt a:hover {
     color: #ffffff;
-    background-color: #f76d37;
+    background-color: #f2ae1c;
 }
 
 /* about section end */
@@ -436,45 +331,32 @@ button {
     float: left;
 }
 
-/* makes a 3-column layout, as we currently have 6 bios */
-.bio_column {
-    float: left;
-    width: 33.33%;
-}
-
-/* Clear floats */
-.bio_row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .bio_column {
-    width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .bio_column {
+.stories_taital {
     width: 100%;
-  }
+    float: left;
+    font-size: 42px;
+    color: #4c7031;
+    font-weight: bold;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card_bio {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 450px;
+  max-height: 500px;
   margin: auto;
   text-align: center;
-  padding: 15px;
+  padding: 30px;
 }
 
 .title_bio {
   color: grey;
   font-size: 14px;
-  margin: -10px;
+  margin: 0px;
 }
 
 button_bio {
@@ -491,7 +373,11 @@ button_bio {
 }
 
 h1_bio {
-    padding: 10px 0 10px 0;
+    color: #212121;
+    text-decoration: none!important;
+    opacity: 1;
+    font-size: 20px;
+    line-height: 1.5;
 }
 
 a_bio {
@@ -505,113 +391,6 @@ button_bio:hover, a_bio:hover {
 }
 
 /* bio section end */
-
-/* gallery section start */
-
-.gallery_section {
-    width: 100%;
-    float: left;
-    padding-bottom: 90px;
-}
-
-.gallery_taital {
-    width: 100%;
-    float: left;
-    text-align: center;
-    font-size: 40px;
-    color: #f76d37;
-    font-weight: bold;
-}
-
-.gallery_text {
-    width: 100%;
-    float: left;
-    font-size: 16px;
-    text-align: center;
-    margin: 0px;
-    padding-top: 20px;
-    color: #262525;
-}
-
-.gallery_section_2 {
-    width: 100%;
-    float: left;
-    padding-top: 50px;
-}
-
-.image {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-img.image {
-    min-height: 300px;
-}
-
-.container_main {
-    position: relative;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: rgb(254, 230, 220, 0.6);
-    margin: 0 auto;
-}
-
-.container_main:hover .overlay {
-    opacity: 1;
-}
-
-.text {
-    color: white;
-    font-size: 60px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    width: 80%;
-    text-align: center;
-}
-
-.seemore_bt {
-    width: 170px;
-    margin: 0 auto;
-    text-align: center;
-    display: flex;
-}
-
-.seemore_bt a {
-    width: 100%;
-    text-align: center;
-    font-size: 18px;
-    color: #ffffff;
-    background-color: #252525;
-    padding: 10px 0px;
-    margin-top: 40px;
-}
-
-.seemore_bt a:hover {
-    background-color: #f76d37;
-    color: #ffffff;
-}
-
-a:hover {
-    color: #f76d37;
-    text-decoration: underline;
-}
-
-/* gallery section end */
 
 /* values section start */
 
@@ -628,7 +407,7 @@ a:hover {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #000000;
+    color: #4c7031;
     font-weight: bold;
     text-align: center;
 }
@@ -670,12 +449,12 @@ a:hover {
 }
 
 .box_main:hover {
-    background-color: #ffffff;
+    background-color: #fff4e8;
 }
 
 .box_main {
     width: 100%;
-    background-color: #f76d37;
+    background-color: #cd9317;
     padding: 40px 30px;
     box-shadow: 0px 0px 18px -6px;
 }
@@ -865,7 +644,7 @@ a:hover {
     float: left;
     font-size: 40px;
     text-align: center;
-    color: #f76d37;
+    color:  #4c7031;
     font-weight: bold;
 }
 
@@ -933,21 +712,17 @@ a:hover {
     margin: 0 auto;
     text-align: center;
     font-size: 16px;
-    color: #ffffff;
-    background-color: #d33a11;
+    font-weight: bold;
+    color: #4c7031;
+    background-color:  #f2ae1c;
     padding: 15px 50px 12px 50px;
     border-radius: 30px;
     display: block;
 }
 
-.main_bt a {
-    color: #ffffff;
-    background-color: #d33a11;
-}
-
 .main_bt a:hover {
     color: #323131;
-    background-color: #ffffff;
+    background-color: #fff4e8;
 }
 
 .padding_0 {
@@ -961,7 +736,7 @@ a:hover {
 .footer_section {
     width: 100%;
     float: left;
-    background-color: #252525;
+    background-color: #4c7031;
     height: auto;
     padding: 95px 0px;
 }
@@ -1002,7 +777,7 @@ a:hover {
 }
 
 .footer_menu li a:hover {
-    color: #f76d37;
+    color:  #f2ae1c;
 }
 
 .dummy_text {
@@ -1034,7 +809,7 @@ a:hover {
 }
 
 .location_text li a:hover {
-    color: #f76d37;
+    color:  #f2ae1c;
 }
 
 .padding_left_10 {
@@ -1049,7 +824,7 @@ a:hover {
 .copyright_section {
     width: 100%;
     float: left;
-    background-color: #ffffff;
+    background-color: #fff4e8;
     height: auto;
 }
 
@@ -1067,7 +842,7 @@ a:hover {
 }
 
 .copyright_text a:hover {
-    color: #f76d37;
+    color:  #f2ae1c;
 }
 
 
