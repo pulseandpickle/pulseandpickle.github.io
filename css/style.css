@@ -319,9 +319,9 @@ button {
 }
 
 .about_table {
-    margin: auto;
     display: flex;
     flex-flow: row wrap;
+    margin: auto;
     width: 80%;
     padding: 10px;
     gap: 20px 20px;
@@ -342,11 +342,10 @@ button {
     font-weight: bold;
     line-height: 30px;
     text-align: center;
-    align-content: center;
+    align-items: center;
     padding: 20px 10px;
-    max-width: 700px;
+    margin: auto;
     min-width: 400px;
-    max-height: 300px;
 }
 
 .about_text {
@@ -359,8 +358,10 @@ button {
 
 .about_img {
     flex: 2;
+    margin: auto;
+    align-items: center;
     max-width: 900px;
-    min-width: 500px;
+    min-width: 400px; 
 }
 
 .read_bt {
@@ -390,74 +391,6 @@ button {
 }
 
 /* about section end */
-
-/* bio section start */
-
-.bio_section {
-    width: 100%;
-    float: left;
-}
-
-.stories_taital {
-    width: 100%;
-    float: left;
-    font-size: 42px;
-    color: #4c7031;
-    font-weight: bold;
-    text-align: center;
-}
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.card_bio {
-  max-width: 400px;
-  max-height: 500px;
-  margin: auto;
-  text-align: center;
-  padding: 30px;
-}
-
-.title_bio {
-  color: grey;
-  font-size: 14px;
-  margin: 0px;
-}
-
-button_bio {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-h1_bio {
-    color: #212121;
-    text-decoration: none!important;
-    opacity: 1;
-    font-size: 20px;
-    line-height: 1.5;
-}
-
-a_bio {
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
-}
-
-button_bio:hover, a_bio:hover {
-  opacity: 0.7;
-}
-
-/* bio section end */
 
 /* values section start */
 
@@ -591,6 +524,74 @@ button_bio:hover, a_bio:hover {
 }
 
 /* values section end */
+
+/* bio section start */
+
+.bio_section {
+    width: 100%;
+    float: left;
+}
+
+.stories_taital {
+    width: 100%;
+    float: left;
+    font-size: 42px;
+    color: #4c7031;
+    font-weight: bold;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card_bio {
+    max-width: 400px;
+    max-height: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.title_bio {
+  color: grey;
+  font-size: 14px;
+  margin: 0px;
+}
+
+button_bio {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+h1_bio {
+    color: #212121;
+    text-decoration: none!important;
+    opacity: 1;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+a_bio {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button_bio:hover, a_bio:hover {
+  opacity: 0.7;
+}
+
+/* bio section end */
 
 /* contact section start */
 
