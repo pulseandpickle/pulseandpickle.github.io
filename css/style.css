@@ -303,7 +303,7 @@ button {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: .5rem;
     padding-left: .5rem;
-    font-size: 18px;
+    font-size: 14px;
     color: #4c7031;
 }
 
@@ -392,15 +392,24 @@ button {
 
 /* about section end */
 
+/* image window section start */
+
+.img_window_section {
+    width: 100%;
+    float: left;
+    background-image: url(../images/values-bg.jpeg);
+    height: 500px;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+}
+
+/* image window section end */
+
 /* values section start */
 
 .values_section {
     width: 100%;
     float: left;
-    background-image: url(../images/values-bg.png);
-    height: auto;
-    padding-bottom: 100px;
-    background-attachment: fixed;
 }
 
 .values_taital {
@@ -412,13 +421,34 @@ button {
     text-align: center;
 }
 
+.values_table {
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    gap: 20px 20px;
+}
+
+.values_column {
+    flex: 30;
+}
+
 .values_text {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #ffffff;
+    color: #4c7031;
     margin: 0px;
     text-align: center;
+    padding: 0px 30px;
+}
+
+.values_img {
+    margin: auto;
+    align-items: center;
+    max-width: 200px;
+    min-width: 100px;
 }
 
 .house_icon {
@@ -449,22 +479,22 @@ button {
 }
 
 .box_main:hover {
-    background-color: #fff4e8;
+    background-color: #cd9317;
 }
 
 .box_main {
     width: 100%;
-    background-color: #cd9317;
+    background-color:#fff4e8;
     padding: 40px 30px;
     box-shadow: 0px 0px 18px -6px;
 }
 
 .box_main:hover .decorate_text {
-    color: #000;
+    color: #ffffff;
 }
 
 .box_main:hover .tation_text {
-    color: #000;
+    color: #ffffff;
 }
 
 .box_main:hover .readmore_bt {
@@ -472,7 +502,6 @@ button {
 }
 
 .box_main:hover .readmore_bt a {
-    color: #ffffff;
     background-color: #000;
 }
 
@@ -485,7 +514,7 @@ button {
 .decorate_text {
     width: 100%;
     font-size: 28px;
-    color: #ffffff;
+    color: #4c7031;
     padding-top: 30px;
     text-align: center;
 }
@@ -493,7 +522,7 @@ button {
 .tation_text {
     width: 100%;
     font-size: 14px;
-    color: #ffffff;
+    color: #4c7031;
     margin: 0px;
     text-align: center;
 }
@@ -674,16 +703,16 @@ button_bio:hover, a_bio:hover {
     text-align: center;
     font-size: 16px;
     font-weight: bold;
-    color: #4c7031;
-    background-color:  #f2ae1c;
+    color: #ffffff;
+    background-color: #4c7031;
     padding: 15px 50px 12px 50px;
     border-radius: 30px;
     display: block;
 }
 
 .main_bt a:hover {
-    color: #323131;
-    background-color: #fff4e8;
+    color: #ffffff;
+    background-color: #f2ae1c;
 }
 
 .padding_0 {
