@@ -579,6 +579,7 @@ button {
     display: flex;
     flex-flow: wrap;
     padding: 30px;
+    align-items: center;
 }
 
 .bio_column {
@@ -587,18 +588,21 @@ button {
 }
 
 .bio_img_card {
-    float: right;
+    float: center;
     max-width: 400px;
     max-height: 500px;
+    min-width: 200px;
     margin: auto;
     text-align: center;
     padding: 30px;
 }
 
 .bio_story {
+    margin: auto;
     float: left;
     width: 80%;
-    padding: 30px;
+    min-width: 300px;
+    text-align: center;
 }
 
 .title_bio {
