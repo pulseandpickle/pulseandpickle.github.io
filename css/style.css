@@ -570,16 +570,34 @@ button {
     text-align: center;
 }
 
-.flex-container {
+.flex_container {
     display: flex;
     flex-wrap: wrap;
 }
 
-.card_bio {
+.bio_row {
+    display: flex;
+    flex-flow: wrap;
+    padding: 30px;
+}
+
+.bio_column {
+    flex: 1;
+    flex-wrap: column wrap;
+}
+
+.bio_img_card {
+    float: right;
     max-width: 400px;
     max-height: 500px;
     margin: auto;
     text-align: center;
+    padding: 30px;
+}
+
+.bio_story {
+    float: left;
+    width: 80%;
     padding: 30px;
 }
 
