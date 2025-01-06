@@ -345,7 +345,7 @@ button {
     align-items: center;
     padding: 20px 10px;
     margin: auto;
-    min-width: 400px;
+    min-width: 300px;
 }
 
 .about_text {
@@ -361,7 +361,7 @@ button {
     margin: auto;
     align-items: center;
     max-width: 900px;
-    min-width: 400px; 
+    min-width: 300px; 
 }
 
 .read_bt {
@@ -401,6 +401,8 @@ button {
     height: 500px;
     padding-bottom: 100px;
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
 /* image window section end */
