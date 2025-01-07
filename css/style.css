@@ -601,7 +601,6 @@ button {
 
 .bio_story {
     margin: auto;
-    float: left;
     width: 80%;
     min-width: 300px;
     text-align: center;
