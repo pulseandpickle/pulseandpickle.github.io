@@ -174,7 +174,7 @@ ol {
 }
 
 p {
-    margin: 20px;
+    margin: 20px 0px;
     font-weight: 300;
     font-size: 15px;
     line-height: 24px;
@@ -356,7 +356,7 @@ button {
     color: #4c7031;
     font-weight: bold;
     line-height: 30px;
-    text-align: center;
+    text-align: left;
     align-items: center;
     padding: 20px 10px;
     margin: auto;
@@ -367,8 +367,7 @@ button {
     float: left;
     font-size: 16px;
     color: #4c4c4b;
-    text-align: center;
-    padding: 30px;
+    text-align: left;
 }
 
 .about_img {
@@ -444,6 +443,7 @@ button {
     margin: 0px;
     text-align: center;
     padding: 0px 30px;
+    min-width: 400px;
 }
 
 .values_img {
