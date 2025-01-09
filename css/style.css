@@ -608,6 +608,14 @@ button_bio:hover, a_bio:hover {
     text-align: center;
 }
 
+.engagement_intro {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    margin: auto;
+    max-width: 900px;
+}
+
 .engagement_table {
     display: flex;
     flex-flow: row wrap;
