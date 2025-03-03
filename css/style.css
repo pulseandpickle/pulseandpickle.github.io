@@ -427,13 +427,13 @@ button {
     display: flex;
     flex-flow: row wrap;
     margin: auto;
-    width: 80%;
+    width: 75%;
     padding: 10px;
     gap: 20px 20px;
 }
 
 .events_column {
-    flex: 40;
+    flex: 25;
 }
 
 .events_text {
