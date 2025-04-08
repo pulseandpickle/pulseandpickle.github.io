@@ -43,6 +43,12 @@
   font-style: italic;
 }
 
+.inclusive-sans-bold-italic {
+  font-family: "Inclusive Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+}
 
 
 
@@ -332,11 +338,7 @@ button {
     gap: 20px 20px;
 }
 
-.about_column1 {
-    flex: 40;
-}
-
-.about_column2 {
+.about_column {
     flex: 40;
 }
 
@@ -361,7 +363,6 @@ button {
 }
 
 .about_img {
-    flex: 2;
     margin: auto;
     align-items: center;
     max-width: 900px;
