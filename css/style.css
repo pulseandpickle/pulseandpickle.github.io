@@ -322,6 +322,36 @@ button {
 
 /* image window section end */
 
+/* intro section start */
+
+.intro_section{
+    width: 100%;
+    float: left;
+}
+
+.intro_table{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    gap: 20px 20px;
+}
+
+.intro_text {
+    float: left;
+    font-size: 16px;
+    color: #4c4c4b;
+    text-align: left;
+}
+
+.intro_img {
+    margin: auto;
+    align-items: center;
+    max-width: 900px;
+    min-width: 300px; 
+}
+
+/* intro section end */
+
 /* about section start */
 
 .about_section {
@@ -332,6 +362,7 @@ button {
 .about_table {
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
     margin: auto;
     width: 80%;
     padding: 10px;
@@ -424,7 +455,7 @@ button {
 }
 
 .events_column {
-    flex: 25;
+    flex: 0 0 33.3333%;
 }
 
 .events_text {
@@ -439,10 +470,11 @@ button {
 }
 
 .events_img {
-    margin: auto;
+    display: flex;
     align-items: center;
-    max-width: 400px;
-    min-width: 100px;
+    justify-content: center;
+    min-width: 300px;
+    padding: 15px 15px;
 }
 
 /* events section end */
@@ -577,7 +609,7 @@ button {
 }
 
 .bio_img_card {
-    float: center;
+    float: right;
     max-width: 400px;
     max-height: 500px;
     min-width: 300px;
