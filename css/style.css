@@ -745,6 +745,7 @@ button_bio:hover, a_bio:hover {
     text-align: center;
     color: #4c4c4b;
     line-height: 28px;
+    padding: 10px 40px
 }
 
 .visit_section_2 {
