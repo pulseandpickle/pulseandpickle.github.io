@@ -388,12 +388,13 @@ button {
 }
 
 .about_taital {
+    width: 100%;
     float: left;
     font-size: 24px;
     color: #4c7031;
     font-weight: bold;
     line-height: 30px;
-    text-align: left;
+    text-align: center;
     align-items: center;
     padding: 20px 10px;
     margin: auto;
