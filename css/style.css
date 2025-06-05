@@ -680,6 +680,91 @@ button_bio:hover, a_bio:hover {
 
 /* bio section end */
 
+/* newsletter section start */
+
+.newsletter_section {
+    width: 100%;
+    float: left;
+}
+
+.newsletter_taital {
+    width: 100%;
+    float: left;
+    margin: 0px;
+    text-align: right;
+    justify-content: center;
+    padding: 0px 100px;
+    min-width: 250px;
+}
+
+.newsletter_intro {
+    display: flex;
+    min-height: 200px;
+    width: 100%;
+    position: relative;
+    padding: 15px 100px 15px 100px;
+}
+                       
+.newsletter_intro_img {
+    min-width: 250px;
+}
+
+.newsletter_credits {
+    text-align: left;
+    min-width: 150px;
+    position: absolute;
+    align-self: center;
+}
+
+.newsletter_table {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin: auto;
+    width: 90%;
+    padding: 15px 60px 15px 60px;
+}
+
+.newsletter_column {
+    flex: 50;
+    align-items: flex-start;
+}
+
+.newsletter_img {
+    width: 100%;
+    float: left;
+    padding: 15px 15px;
+    align-self: center;
+    min-width: 250px;
+}
+
+.newsletter_longramble {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    align-items: center;
+}
+
+.newsletter_header {
+    width: 100%;
+    float: left;
+    text-align: right;
+    font-size:20px;
+    line-height: 30px;
+}
+
+.newsletter_text {
+    width: 100%;
+    float: left;
+    padding: 15px 10px 15px 10px;
+}
+
+.newsletter_caption {
+    width: 100%;
+    float: left;
+    padding: 15px 15px;
+}
+
 /* engagement section start */
 
 .engagement_section {
