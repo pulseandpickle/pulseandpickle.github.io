@@ -697,6 +697,11 @@ button_bio:hover, a_bio:hover {
     min-width: 250px;
 }
 
+.newsletter_teaser_section {
+    width: 100%;
+    float: left;
+}
+
 .newsletter_intro {
     display: flex;
     min-height: 200px;
@@ -723,6 +728,14 @@ button_bio:hover, a_bio:hover {
     margin: auto;
     width: 90%;
     padding: 15px 60px 15px 60px;
+}
+
+.newsletter_teaser_table {
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    width: 90%;
+    padding: 15px 75px 15px 75px;
 }
 
 .newsletter_column {
@@ -756,6 +769,13 @@ button_bio:hover, a_bio:hover {
 .newsletter_text {
     width: 100%;
     float: left;
+    padding: 15px 10px 15px 10px;
+}
+
+.newsletter_teaser_text {
+    width: 100%;
+    float: left;
+    text-align: center;
     padding: 15px 10px 15px 10px;
 }
 
