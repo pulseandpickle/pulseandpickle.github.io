@@ -480,16 +480,16 @@ button {
     color: #4c4c4b;
     margin: 0px;
     text-align: center;
-    padding: 30px 30px;
-    min-width: 250px;
+    padding: 25px 25px;
+    min-width: 225px;
 }
 
 .events_img {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 300px;
-    padding: 15px 15px;
+    min-width: 250px;
+    padding: 10px 10px;
 }
 
 /* events section end */
